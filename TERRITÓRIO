@@ -9,7 +9,7 @@ typedef struct {
     int tropas;
 } Territorio;
 
-// Definir quantidade de 5 territórios   
+// Definir quantidade de 5 territorios   
 int main() {
     Territorio territorios[5];
     int i;
@@ -21,7 +21,7 @@ for (int i = 0; i < 5; i++) {
     printf("Digite o nome do território %d:",i+1);     
     scanf( "%s", territorios[i].nome);    
          
-    // Solicitar a cor do exército
+    // Solicitar a cor do exercito
     printf("Digite a cor do exército %d:",i+1);
     scanf("%s", territorios[i].cor); 
 
