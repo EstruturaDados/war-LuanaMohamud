@@ -34,7 +34,8 @@ for (int i = 0; i < 5; i++) {
     // Exibir os dados cadastrados
     printf("Dados dos Territórios Cadastrados:\n");
     for (int i = 0; i < 5; i++) {
-    printf("Território %d: nome: %s, cor: %s, tropas: %d\n", i+1, territorios[i].nome, territorios[i].cor, territorios[i].tropas;   
+    printf("Território %d: nome: %s, cor: %s, tropas: %d\n"), 
+        i+1, territorios[i].nome, territorios[i].cor, territorios[i].tropas;   
     }
 
     return 0;
